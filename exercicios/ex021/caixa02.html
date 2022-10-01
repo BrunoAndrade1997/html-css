@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+        }
+
+        nav {
+            background-color: rgb(165, 165, 165);
+            padding: 8px;
+            box-shadow: 2px 2px 2px black;
+        }
+
+        nav > a {
+            margin: 4px;
+            padding: 4px;
+            border: 1px solid black;
+        }
+
+        nav > a:hover {
+            color: aqua;
+            text-decoration: overline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 2px;
+        }
+
+        article > aside {
+            background-color: lightslategray;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        div#bola {
+            height: 200px;
+            width: 200px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Título</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="top-news">
+
+        </section>
+        <section id="news">
+            <article>
+                <h2>Notícia Urgente</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem atque itaque unde maiores corrupti assumenda eaque consequuntur fugiat dignissimos ut pariatur, culpa nemo placeat provident perspiciatis corporis sint ratione velit.</p>
+                <aside>
+                    <p>Artigo escrito por Paulo Coelho</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por sua mãe</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
