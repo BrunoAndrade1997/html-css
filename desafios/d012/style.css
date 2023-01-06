@@ -46,6 +46,10 @@ section {
     font-size: 1.4em;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 section.normal {
     background-color: white;
     color: black;
@@ -53,7 +57,11 @@ section.normal {
 
 section.imagem {
     background-color: rgb(82, 82, 82);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.621);
 }
 
 section.imagem > p {
@@ -61,6 +69,7 @@ section.imagem > p {
     padding: 5px 10px;
     background-color: rgba(0, 0, 0, 0.308);
     width: 400px;
+    text-shadow: 2px 2px 0px black;
 }
 
 footer {
@@ -78,4 +87,12 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+#img01 {
+    background-image: url(imagens/background001.jpg);
+}
+
+#img02 {
+    background-image: url(imagens/background002.jpg);
 }
